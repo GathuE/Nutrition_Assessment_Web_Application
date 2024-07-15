@@ -1,0 +1,20 @@
+{
+    "name": "nutrievaluator/nutrievaluator",
+    "description": "Nutrition Software",
+    "type": "project",
+    "require": {
+        "fpdf/fpdf": "^1.82",
+        "mpdf/mpdf": "^8.0"
+    },
+    "require-dev": {
+        "fpdf/fpdf": "^1.82"
+    },
+    "license": "OpenSource",
+    "authors": [
+        {
+            "name": "Nutrition Evaluation Tool",
+            "email": "nutrievaluator@mail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}

@@ -1,0 +1,19 @@
+$result5 = $conn->query($select5);
+$data5 = array();
+while($row5 = $result5->fetch_object()){
+	$data5 .= '<tr>'
+	.'<td>'.$row3->Vit_A_RAE.'</td>'
+		  .'<td>'.$row3->Vit_A_RE.'</td>'
+		  .'<td>'.$row3->retinol.'</td>'
+          .'<td>'.$row3->b_carotene_equivalent.'</td>'
+		  .'<td>'.$row3->thiamin.'</td>'
+          .'<td>'.$row3->riboflavin.'</td>'
+          .'<td>'.$row3->niacin.'</td>'
+          .'<td>'.$row3->dietary_folate_eq.'</td>'
+          .'<td>'.$row3->food_folate.'</td>'
+		  .'<td>'.$row3->vit_B_12.'</td>'
+		  .'<td>'.$row3->vit_c.'</td>'
+		  .'<td>'.$row3->cholesterol.'</td>'
+		  .'<td>'.$row3->Oxalic_acid_OXALAC.'</td>'
+		  .'<td>'.$row3->phytate.'</td></tr>';
+}
